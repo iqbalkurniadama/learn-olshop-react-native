@@ -1,0 +1,72 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "login": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "product 1",
+      "quantity": 10,
+      "price": 10000,
+      "kategori_id": 1,
+      "description": "lorem ipsum lorem ipsum lorem ipsum"
+    },
+    {
+      "id": 2,
+      "name": "product 2",
+      "quantity": 12,
+      "price": 12000,
+      "kategori_id": 2,
+      "description": "lorem ipsum lorem ipsum lorem ipsum"
+    },
+    {
+      "id": 3,
+      "name": "product 3",
+      "quantity": 13,
+      "price": 13000,
+      "kategori_id": 3,
+      "description": "lorem ipsum lorem ipsum lorem ipsum"
+    },
+    {
+      "id": 4,
+      "name": "product 4",
+      "quantity": 14,
+      "price": 14000,
+      "kategori_id": 4,
+      "description": "lorem ipsum lorem ipsum lorem ipsum"
+    }
+  ],
+  "product_images": [
+    {
+      "id": 1,
+      "productId": 1,
+      "path": "https://via.placeholder.com/256x128.png?text=1"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "path": "https://via.placeholder.com/256x128.png?text=2"
+    }
+  ]
+}
